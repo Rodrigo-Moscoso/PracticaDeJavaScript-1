@@ -4,25 +4,25 @@ numéricos y 1 tipo de operación, usa los parámetros y condicionales para calc
 el resultado y mostrarlo en la consola
 */
 
-let valor1 = prompt("Intruduzca el 1er valor númerico");
-let valor2 = prompt("Intruduzca el 2do valor númerico");
+let valor1 = parseInt(prompt("Intruduzca el 1er valor númerico"));
+let valor2 = parseInt(prompt("Intruduzca el 2do valor númerico"));
 let operador = prompt(
   "Intruduzca la operción aritmetica que desea realizar: + - * /"
 );
 
 if (operador == "+") {
-  resultado = parseInt(valor1) + parseInt(valor2);
+  resultado = valor1 + valor2;
   alert(resultado);
 }
 if (operador == "-") {
-  resultado = parseInt(valor1) - parseInt(valor2);
+  resultado = valor1 - valor2;
   alert(resultado);
 }
 if (operador == "*") {
-  resultado = parseInt(valor1) * parseInt(valor2);
+  resultado = resultado = valor1 * valor2;
   alert(resultado);
 }
 if (operador == "/") {
-  resultado = parseInt(valor1) / parseInt(valor2);
+  resultado = resultado = valor1 / valor2;;
   alert(resultado);
 }
